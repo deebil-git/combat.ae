@@ -444,6 +444,24 @@
         </div>
     </footer>
 
+    <div class="modal fade" id="successModalCenter" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close d-flex align-items-center justify-content-center"
+                        data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="fa fa-close"></span>
+                    </button>                    
+                </div>
+                <div class="modal-body p-4 p-md-5">
+                    <p>Thank you for contacting us. We will be in touch with you very soon.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
         aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
@@ -455,7 +473,7 @@
                     </button>
                 </div>
                 <div class="modal-body p-4 p-md-5">
-                    <form action="https://formsubmit.co/2f1758528421b05840c6d257986d2181" method="POST" role="form" class="appointment-form ftco-animate">
+                    <form action="https://formsubmit.co/2f1758528421b05840c6d257986d2181" id="quoteform" method="POST" role="form" class="appointment-form ftco-animate">
                         <h3>Quote Requisition Form</h3>
                         <div class="">
                             <div class="form-group">
@@ -506,8 +524,8 @@
                                 <input type="hidden" name="access_token" value="combatquoterequisitionform">
                                 <input type="submit" value="Request A Quote" class="btn btn-primary py-3 px-4">
                             </div>
-                        </div>
-                    </form>
+                        </div>                                               
+                    </form>                    
                 </div>
             </div>
         </div>
@@ -538,6 +556,17 @@
     <script src="js/google-map.js"></script>
 
     <script src="js/main.js"></script>
+
+    <script>
+        $('#quoteform').submit(function(e) {
+            $('#messages').removeClass('hide').addClass('alert alert-success alert-dismissible').slideDown().show();
+            $('#messages_content').html('<p>Thank you for contacting us. We will be in touch with you very soon.</p>');
+            $('#exampleModalCenter').modal('hide');
+            e.preventDefault();
+            document.getElementById("quoteform").reset();
+            $('#successModalCenter').modal('show');
+        });
+    </script>
 
 </body>
 
