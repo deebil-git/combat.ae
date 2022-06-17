@@ -268,8 +268,9 @@
 							Copyright &copy;
                             <script>
                                 document.write(new Date().getFullYear());
-                            </script> All rights reserved | Designed by
-							<a href="https://deebil.com" target="_blank">Deebil</a>
+                            </script> All rights reserved | 
+							<span style="font-size: .75em">
+								Designed by <a href="https://deebil.com" target="_blank" style="text-decoration: none">Deebil</a></span>
                         </p>
                     </div>
                 </div>
@@ -286,17 +287,14 @@
 						</button>
 					</div>
 					<div class="modal-body p-4 p-md-5">
-						<form action="https://formsubmit.co/forms@combat.ae" method="POST" target="_blank"  class="appointment-form ftco-animate">
-							<h3>Request Quote</h3>
+						<form action="https://formsubmit.co/forms@combat.ae" method="POST" target="_blank" role="form" class="appointment-form ftco-animate">
+							<h3>Quote Requisition Form</h3>
 							<div class="">
 								<div class="form-group">
-									<input type="text" class="form-control" placeholder="First Name">
+									<input type="text" name="name" id="name" class="form-control" placeholder="Name" required>
 								</div>
 								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Last Name">
-								</div>
-								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Phone">
+									<input type="text" name="phone" id="phone" class="form-control" placeholder="Phone" required>
 								</div>
 							</div>
 							<div class="">
@@ -304,15 +302,15 @@
 									<div class="form-field">
 										<div class="select-wrap">
 											<div class="icon"><span class="fa fa-chevron-down"></span></div>
-											<select name="" id="" class="form-control">
-												<option value="">Select Your Services</option>
-												<option value="">Infrastructure Works</option>
-												<option value="">Road Works</option>
-												<option value="">Civil Works</option>
-												<option value="">Interior &amp; Fitout Works</option>
-												<option value="">MEP Works</option>
-												<option value="">Dewatering Services</option>
-												<option value="">Other Services</option>
+											<select name="" id="" class="form-control" name="service" id="service" required>
+												<option value="">Select Your Service</option>
+												<option value="">Infrastructure Work</option>
+												<option value="">Road Work</option>
+												<option value="">Civil Work</option>
+												<option value="">Interior &amp; Fitout Work</option>
+												<option value="">MEP Work</option>
+												<option value="">Dewatering Service</option>
+												<option value="">Other Service</option>
 											</select>
 										</div>
 									</div>
@@ -320,7 +318,7 @@
 							</div>
 							<div class="">
 								<div class="form-group">
-									<textarea name="" id="" cols="30" rows="4" class="form-control" placeholder="Message"></textarea>
+									<textarea name="description" id="description" cols="30" rows="4" class="form-control" placeholder="Description"></textarea>
 								</div>
 								<div class="form-group">
 									<input type="submit" value="Request A Quote" class="btn btn-primary py-3 px-4">
