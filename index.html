@@ -564,7 +564,8 @@
             $('#messages_content').html('<p>Thank you for contacting us. We will be in touch with you very soon.</p>');
             $('#exampleModalCenter').modal('hide');
             // e.preventDefault();
-            document.getElementById("quoteform").reset();            
+            await new Promise(resolve => setTimeout(resolve, 1000));
+            // document.getElementById("quoteform").reset();            
         });
     </script>
 
