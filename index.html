@@ -515,7 +515,7 @@
                             </div>
                             <div class="form-group">
                                 <input type="hidden" name="_subject" value="Quote Request">
-                                <input type="hidden" name="_next" value="#">
+                                <input type="hidden" name="_next" value="https://combat.ae">
                                 <input type="text" name="_honey" style="display:none">
                                 <input type="hidden" name="_captcha" value="false">
                                 <input type="hidden" name="_template" value="table">       
@@ -559,12 +559,12 @@
 
     <script>
         $('#quoteform').submit(function(e) {
+            $('#successModalCenter').modal('show');
             $('#messages').removeClass('hide').addClass('alert alert-success alert-dismissible').slideDown().show();
             $('#messages_content').html('<p>Thank you for contacting us. We will be in touch with you very soon.</p>');
             $('#exampleModalCenter').modal('hide');
-            // e.preventDefault();
-            document.getElementById("quoteform").reset();
-            $('#successModalCenter').modal('show');
+            e.preventDefault();
+            document.getElementById("quoteform").reset();            
         });
     </script>
 
