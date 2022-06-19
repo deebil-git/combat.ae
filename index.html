@@ -376,7 +376,7 @@
         </div>
     </footer>
 
-    
+
     <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
         aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
@@ -431,7 +431,8 @@
                             </div>
                             <div class="form-group">
                                 <input type="hidden" name="_subject" value="Quote Request">
-                                <input type="hidden" name="_next" value="https://deebil-nayif.github.io/combat.ae/thanks">
+                                <input type="hidden" name="_next"
+                                    value="https://deebil-nayif.github.io/combat.ae/thanks">
                                 <input type="text" name="_honey" style="display:none">
                                 <input type="hidden" name="_captcha" value="false">
                                 <input type="hidden" name="_template" value="table">
@@ -473,6 +474,18 @@
     <script src="js/google-map.js"></script>
 
     <script src="js/main.js"></script>
+
+    <!-- <script>
+    $('#quoteform').submit(function (e) {
+      $('#successModalCenter').modal('show');
+      $('#messages').removeClass('hide').addClass('alert alert-success alert-dismissible').slideDown().show();
+      $('#messages_content').html('<p>Thank you for contacting us. We will be in touch with you very soon.</p>');
+      $('#exampleModalCenter').modal('hide');
+      // e.preventDefault();
+      sleep(20000);
+      // document.getElementById("quoteform").reset();            
+    });
+  </script> -->
 
 </body>
 
