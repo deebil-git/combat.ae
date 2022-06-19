@@ -33,7 +33,7 @@
 		content="Established with a well founded vision and skilled technical & engineering workforce. We have team with more than two decades of experience in the sector.">
 
 
-	<!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -41,7 +41,7 @@
 
 	<link rel="stylesheet" href="css/owl.carousel.min.css">
 	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-	<!-- <link rel="stylesheet" href="css/magnific-popup.css"> -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
 
 	<link rel="stylesheet" href="css/bootstrap-datepicker.css">
 	<link rel="stylesheet" href="css/jquery.timepicker.css">
@@ -157,8 +157,7 @@
 			<div class="row no-gutters slider-text align-items-end justify-content-start">
 				<div class="col-md-9 ftco-animate pb-5">
 					<p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i
-									class="fa fa-chevron-right"></i></a></span> <span>Contact us <i
-								class="fa fa-chevron-right"></i></span></p>
+									class="fa fa-chevron-right"></i></a></span> </p>
 					<h1 class="mb-3 bread">Contact Us</h1>
 				</div>
 			</div>
@@ -336,24 +335,6 @@
 		</div>
 	</footer>
 
-	<div class="modal fade" id="successModalCenter" tabindex="-1" role="dialog"
-		aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-		<div class="modal-dialog modal-dialog-centered" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close d-flex align-items-center justify-content-center"
-						data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true" class="fa fa-close"></span>
-					</button>
-				</div>
-				<div class="modal-body p-4 p-md-5">
-					<p>Your quote request is under process. We will contact you back at the earliest.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-
 	<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
 		aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 		<div class="modal-dialog modal-dialog-centered" role="document">
@@ -408,7 +389,7 @@
 							</div>
 							<div class="form-group">
 								<input type="hidden" name="_subject" value="Quote Request">
-								<input type="hidden" name="_next" value="https://combat.ae/contact-us">
+								<input type="hidden" name="_next" value="https://deebil-nayif.github.io/combat.ae/thanks">
 								<input type="text" name="_honey" style="display:none">
 								<input type="hidden" name="_captcha" value="false">
 								<input type="hidden" name="_template" value="table">
@@ -450,18 +431,6 @@
 	<script src="js/google-map.js"></script>
 
 	<script src="js/main.js"></script>
-
-	<script>
-		$('#quoteform').submit(function (e) {
-			$('#successModalCenter').modal('show');
-			$('#messages').removeClass('hide').addClass('alert alert-success alert-dismissible').slideDown().show();
-			$('#messages_content').html('<p>Thank you for contacting us. We will be in touch with you very soon.</p>');
-			$('#exampleModalCenter').modal('hide');
-			// e.preventDefault();
-			sleep(20000);
-			// document.getElementById("quoteform").reset();            
-		});
-	</script>
 
 </body>
 

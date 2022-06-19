@@ -376,24 +376,7 @@
         </div>
     </footer>
 
-    <div class="modal fade" id="successModalCenter" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close d-flex align-items-center justify-content-center"
-                        data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true" class="fa fa-close"></span>
-                    </button>
-                </div>
-                <div class="modal-body p-4 p-md-5">
-                    <p>Your quote request is under process. We will contact you back at the earliest.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
+    
     <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
         aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
@@ -448,7 +431,7 @@
                             </div>
                             <div class="form-group">
                                 <input type="hidden" name="_subject" value="Quote Request">
-                                <input type="hidden" name="_next" value="https://combat.ae/">
+                                <input type="hidden" name="_next" value="https://deebil-nayif.github.io/combat.ae/thanks">
                                 <input type="text" name="_honey" style="display:none">
                                 <input type="hidden" name="_captcha" value="false">
                                 <input type="hidden" name="_template" value="table">
@@ -490,18 +473,6 @@
     <script src="js/google-map.js"></script>
 
     <script src="js/main.js"></script>
-
-    <script>
-        $('#quoteform').submit(function (e) {
-            $('#successModalCenter').modal('show');
-            $('#messages').removeClass('hide').addClass('alert alert-success alert-dismissible').slideDown().show();
-            $('#messages_content').html('<p>Thank you for contacting us. We will be in touch with you very soon.</p>');
-            $('#exampleModalCenter').modal('hide');
-            // e.preventDefault();
-            sleep(20000);
-            // document.getElementById("quoteform").reset();            
-        });
-    </script>
 
 </body>
 
