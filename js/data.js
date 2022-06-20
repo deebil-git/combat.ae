@@ -16,6 +16,13 @@ $('.combat-logo-footer').each(function () {
     `);
 });
 
+$('.combat-footer-description').each(function () {
+    var link = $(this).html();
+    $(this).contents().wrap(`
+    <p style="text-align: justify;">Combat Technical Services LLC is a proven integrated technical service provider in the United Arab Emirates (UAE), offering the full range of hard and soft technical services for a wide range of business demographics.</p>                     
+    `);
+});
+
 $('.combat-info-mail').each(function () {
     var link = $(this).html();
     $(this).contents().wrap('<a href="mailto:info@combat.ae">info@combat.ae</a>');
@@ -24,6 +31,11 @@ $('.combat-info-mail').each(function () {
 $('.combat-info-icon').each(function () {
     var link = $(this).html();
     $(this).contents().wrap('<a href="mailto:info@combat.ae"></a>');
+});
+
+$('.combat-recruitment-mail').each(function () {
+    var link = $(this).html();
+    $(this).contents().wrap('<a href="mailto:recruitment@combat.ae">recruitment@combat.ae</a>');
 });
 
 $('.combat-linkedin').each(function () {
@@ -166,4 +178,10 @@ function combatquoterequisitionform(form) {
   document.getElementById("_webhook").value = "https://script.google.com/a/macros/deebil.com/s/AKfycbw3Gh0PQhJb42eqqVbE3w6szylS8voUrbk0LExF05tvETtC5wOTcxciBhWR7DcNPpcKUQ/exec";
   document.getElementById("access_token").value = "combatquoterequisitionform";
   document.getElementById("_subject").value = "Quote Request";
+
+
+  
+var slide_url = "assets/slide.webp";
+ 
+document.getElementById("bg_slide").style.backgroundImage = `url(${slide_url})`;
 
