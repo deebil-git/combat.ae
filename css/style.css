@@ -8440,17 +8440,16 @@ h1, h2, h3, h4, h5,
 
 .ftco-navbar-light {
   background: transparent !important;
-  position: absolute;
-  top: 160px;
+  top: 0;
   left: 0;
   right: 0;
   z-index: 3;
   padding: 0;
+  margin-bottom: -30px;
   overflow: hidden; }
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
       background: #040e26 !important;
-      position: relative;
       top: 0;
       padding: 10px 20px; } }
   .ftco-navbar-light .container {
