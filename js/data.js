@@ -148,6 +148,13 @@ $('.combatquoterequisitionform').each(function () {
     `);
 });
 
+$('.inquire-btn-nav').each(function () {
+    var link = $(this).html();
+    $(this).contents().wrap(`
+    <a href="#" class="btn-custom" data-toggle="modal" data-target="#exampleModalCenter">Inquire Now</a>
+    `);
+});
+
 function combatquoterequisitionform(form) {
     form.action = "https://formsubmit.co/2f1758528421b05840c6d257986d2181";
     form.method = "POST";
@@ -159,3 +166,4 @@ function combatquoterequisitionform(form) {
   document.getElementById("_webhook").value = "https://script.google.com/a/macros/deebil.com/s/AKfycbw3Gh0PQhJb42eqqVbE3w6szylS8voUrbk0LExF05tvETtC5wOTcxciBhWR7DcNPpcKUQ/exec";
   document.getElementById("access_token").value = "combatquoterequisitionform";
   document.getElementById("_subject").value = "Quote Request";
+
