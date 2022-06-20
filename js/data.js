@@ -182,7 +182,7 @@ $('.inquire-btn-nav').each(function () {
 });
 
 function combatquoterequisitionform(form) {
-    form.action = "https://formsubmit.co/2f1758528421b05840c6d257986d2181";
+    form.action = "https://formsubmit.co/forms@combat.ae";
     form.method = "POST";
   }
 
