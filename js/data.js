@@ -184,8 +184,6 @@ $('.inquire-btn-nav').each(function () {
 function combatquoterequisitionform(form) {
     form.action = "https://formsubmit.co/2f1758528421b05840c6d257986d2181";
     form.method = "POST";
-    alert(form.action);
-    return false;
   }
 
   document.getElementById("_next").value = "https://deebil-nayif.github.io/combat.ae/thanks";
