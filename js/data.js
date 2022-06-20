@@ -166,14 +166,6 @@ $('.combat-whatsap-footer').each(function () {
     `);
 });
 
-$('.combatquoterequisitionform').each(function () {
-    var link = $(this).html();
-    $(this).contents().wrap(`
-    <a href="https://api.whatsapp.com/send/?phone=%2B971553355868" target=”_blank”>
-    +971 55 335 5868 </a>
-    `);
-});
-
 $('.inquire-btn-nav').each(function () {
     var link = $(this).html();
     $(this).contents().wrap(`
