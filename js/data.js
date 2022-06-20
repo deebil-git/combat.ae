@@ -173,15 +173,9 @@ $('.inquire-btn-nav').each(function () {
     `);
 });
 
-function combatquoterequisitionform(form) {
-    form.action = "https://formsubmit.co/forms@combat.ae";
-    form.method = "POST";
-  }
 
-  document.getElementById("_next").value = "https://deebil-nayif.github.io/combat.ae/thanks";
-  document.getElementById("_webhook").value = "https://script.google.com/a/macros/deebil.com/s/AKfycbw3Gh0PQhJb42eqqVbE3w6szylS8voUrbk0LExF05tvETtC5wOTcxciBhWR7DcNPpcKUQ/exec";
-
-
+document.getElementById("_next").value = "https://deebil-nayif.github.io/combat.ae/thanks";
+document.getElementById("_webhook").value = "https://script.google.com/a/macros/deebil.com/s/AKfycbw3Gh0PQhJb42eqqVbE3w6szylS8voUrbk0LExF05tvETtC5wOTcxciBhWR7DcNPpcKUQ/exec";
   
 var slide_url = "assets/slide.webp";
  
