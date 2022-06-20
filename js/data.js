@@ -38,6 +38,11 @@ $('.combat-recruitment-mail').each(function () {
     $(this).contents().wrap('<a href="mailto:recruitment@combat.ae">recruitment@combat.ae</a>');
 });
 
+$('.combat-appellate-mail').each(function () {
+    var link = $(this).html();
+    $(this).contents().wrap('<a href="mailto:appellate@combat.ae">appellate@combat.ae</a>');
+});
+
 $('.combat-linkedin').each(function () {
     var link = $(this).html();
     $(this).contents().wrap(`<a href="https://www.linkedin.com/company/combat-technical-services" target=”_blank” class="d-flex align-items-center justify-content-center"><span class="fa fa-linkedin">
@@ -119,6 +124,15 @@ $('.combat-location-header').each(function () {
     `);
 });
 
+$('.combat-location-contact').each(function () {
+    var link = $(this).html();
+    $(this).contents().wrap(`
+    <a href="https://g.page/combat-technical-services-llc" target=”_blank”>
+        Warehouse No. 3, 19D Street<br>Ras Al Khor Ind. 1st<br>Dubai, UAE<br>PO Box - 91136
+    </a>
+    `);
+});
+
 $('.combat-location-footer').each(function () {
     var link = $(this).html();
     $(this).contents().wrap(`
@@ -176,8 +190,6 @@ function combatquoterequisitionform(form) {
 
   document.getElementById("_next").value = "https://deebil-nayif.github.io/combat.ae/thanks";
   document.getElementById("_webhook").value = "https://script.google.com/a/macros/deebil.com/s/AKfycbw3Gh0PQhJb42eqqVbE3w6szylS8voUrbk0LExF05tvETtC5wOTcxciBhWR7DcNPpcKUQ/exec";
-  document.getElementById("access_token").value = "combatquoterequisitionform";
-  document.getElementById("_subject").value = "Quote Request";
 
 
   
