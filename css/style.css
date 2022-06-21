@@ -8813,14 +8813,14 @@ h1, h2, h3, h4, h5,
     right: 0;
     width: 90px;
     height: 120px;
-    background: #ed2025;
+    background: transparent;
     margin-right: -45px;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    -webkit-box-shadow: 0px 11px 32px -12px rgba(0, 0, 0, 0.28);
-    -moz-box-shadow: 0px 11px 32px -12px rgba(0, 0, 0, 0.28);
-    box-shadow: 0px 11px 32px -12px rgba(0, 0, 0, 0.28); }
+    -webkit-box-shadow: 0px 11px 32px -12px rgba(0, 0, 0, 0);
+    -moz-box-shadow: 0px 11px 32px -12px rgba(0, 0, 0, 0);
+    box-shadow: 0px 11px 32px -12px rgba(0, 0, 0, 0); }
     .about-wrap .icon span {
       color: #fff;
       font-size: 50px; }

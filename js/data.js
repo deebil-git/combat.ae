@@ -1,18 +1,14 @@
 $('.combat-logo').each(function () {
     var link = $(this).html();
     $(this).contents().wrap(`
-    <a href="index.html">
         <img src="assets/combat.png" width="180" alt="Combat Logo">
-    </a>
     `);
 });
 
 $('.combat-logo-footer').each(function () {
     var link = $(this).html();
     $(this).contents().wrap(`
-    <a href="index.html">
         <img src="assets/combat-footer.png" width="75" alt="Combat Icon">
-    </a>
     `);
 });
 
@@ -190,3 +186,7 @@ var elms2 = document.querySelectorAll("[id='_next']");
 for(var i = 0; i < elms2.length; i++) {
     elms2[i].value = "https://deebil-nayif.github.io/combat.ae/thanks";   
 }
+
+$("body").on("contextmenu", "img", function(e) {
+    return false;
+  });
