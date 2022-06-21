@@ -191,7 +191,7 @@ elms1[i].value = "https://script.google.com/a/macros/deebil.com/s/AKfycbw3Gh0PQh
 
 var elms2 = document.querySelectorAll("[id='_next']"); 
 for(var i = 0; i < elms2.length; i++) {
-    elms2[i].value = "https://deebil-nayif.github.io/combat.ae/thanks";   
+    elms2[i].value = "https://deebil-nayif.github.io/combat.ae/thanks#thanks";   
 }
 
 $("body").on("contextmenu", "img", function(e) {
