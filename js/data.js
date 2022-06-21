@@ -178,6 +178,7 @@ $('.inquire-btn-nav').each(function () {
 
 var slide_url = "assets/slide.webp";
 document.getElementById("bg_slide").style.backgroundImage = `url(${slide_url})`;
+document.getElementById("bg_slide").alt = "projects_brief"
 
 function combatform(form) {
     form.action = "https://formsubmit.co/2f1758528421b05840c6d257986d2181";
