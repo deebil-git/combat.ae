@@ -173,9 +173,13 @@ $('.inquire-btn-nav').each(function () {
     `);
 });
 
-document.getElementById("_webhook").value = "https://script.google.com/a/macros/deebil.com/s/AKfycbw3Gh0PQhJb42eqqVbE3w6szylS8voUrbk0LExF05tvETtC5wOTcxciBhWR7DcNPpcKUQ/exec";
+var elms1 = document.querySelectorAll("[id='_webhook']"); 
+for(var i = 0; i < elms.length; i++) 
+  elms1[i].value = "https://script.google.com/a/macros/deebil.com/s/AKfycbw3Gh0PQhJb42eqqVbE3w6szylS8voUrbk0LExF05tvETtC5wOTcxciBhWR7DcNPpcKUQ/exec";
   
-var slide_url = "assets/slide.webp";
- 
-document.getElementById("bg_slide").style.backgroundImage = `url(${slide_url})`;
+var elms2 = document.querySelectorAll("[id='_next']"); 
+for(var i = 0; i < elms.length; i++) 
+    elms2[i].value = "https://www.deebil-nayif/combat.ae/thanks";
+   
 
+  document.getElementById("bg_slide").style.backgroundImage = `url(${slide_url})`;
