@@ -179,7 +179,6 @@ for(var i = 0; i < elms.length; i++)
   
 var elms2 = document.querySelectorAll("[id='_next']"); 
 for(var i = 0; i < elms.length; i++) 
-    elms2[i].value = "https://www.deebil-nayif/combat.ae/thanks";
-   
+    elms2[i].value = "https://www.deebil-nayif/combat.ae/thanks";   
 
   document.getElementById("bg_slide").style.backgroundImage = `url(${slide_url})`;
