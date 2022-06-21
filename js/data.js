@@ -180,7 +180,7 @@ for(var i = 0; i < elms1.length; i++){
 
 var elms2 = document.querySelectorAll("[id='_next']"); 
 for(var i = 0; i < elms2.length; i++) {
-    elms2[i].value = "https://www.deebil-nayif/combat.ae/thanks";   
+    elms2[i].value = "https://deebil-nayif.github.io/combat.ae/thanks";   
 }
 
 var slide_url = "assets/slide.webp";
