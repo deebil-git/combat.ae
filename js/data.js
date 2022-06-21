@@ -183,4 +183,5 @@ for(var i = 0; i < elms2.length; i++) {
     elms2[i].value = "https://www.deebil-nayif/combat.ae/thanks";   
 }
 
-document.getElementById("bg_slide").style.backgroundImage = `url(${slide_url})`;
+var slide_url = "assets/slide.webp";
+document.getElementById("bg_slide").style.backgroundImage = `url(${slide_y})`;
