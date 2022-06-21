@@ -12,6 +12,13 @@ $('.combat-logo-footer').each(function () {
     `);
 });
 
+$('.combat-icon').each(function () {
+    var link = $(this).html();
+    $(this).contents().wrap(`
+        <img src="assets/combat-icon.png" width="120" alt="Combat Icon">
+    `);
+});
+
 $('.combat-footer-description').each(function () {
     var link = $(this).html();
     $(this).contents().wrap(`
