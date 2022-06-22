@@ -8,29 +8,39 @@
 
 
 <url>
-  <loc>https://deebil-nayif.github.io/combat.ae/</loc>
-  <lastmod>2022-06-19T02:56:39+00:00</lastmod>
+  <loc>https://combat.ae/</loc>
+  <lastmod>2022-06-22T08:00:12+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://deebil-nayif.github.io/combat.ae/index.html</loc>
-  <lastmod>2022-06-19T02:56:39+00:00</lastmod>
+  <loc>https://combat.ae/services</loc>
+  <lastmod>2022-06-22T08:00:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://deebil-nayif.github.io/combat.ae/services</loc>
-  <lastmod>2022-06-19T02:56:39+00:00</lastmod>
+  <loc>https://combat.ae/projects</loc>
+  <lastmod>2022-06-22T08:00:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://deebil-nayif.github.io/combat.ae/clients</loc>
-  <lastmod>2022-06-19T02:56:39+00:00</lastmod>
+  <loc>https://combat.ae/clients</loc>
+  <lastmod>2022-06-22T08:00:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://deebil-nayif.github.io/combat.ae/contact-us</loc>
-  <lastmod>2022-06-19T02:56:39+00:00</lastmod>
+  <loc>https://combat.ae/careers</loc>
+  <lastmod>2022-06-22T08:00:12+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://combat.ae/contact-us</loc>
+  <lastmod>2022-06-22T08:00:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://combat.ae/index</loc>
+  <lastmod>2022-06-22T08:00:12+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
