@@ -48,7 +48,7 @@ $('.combat-appellate-mail').each(function () {
 
 $('.combat-linkedin').each(function () {
     var link = $(this).html();
-    $(this).contents().wrap(`<a href="https://www.linkedin.com/company/combat-technical-services" target=”_blank” class="d-flex align-items-center justify-content-center"><span class="fa fa-linkedin">
+    $(this).contents().wrap(`<a href="https://www.linkedin.com/company/combat-road-contracting" target=”_blank” class="d-flex align-items-center justify-content-center"><span class="fa fa-linkedin">
     <i class="sr-only">LinkedIn</i></span></a>`);
 });
 
@@ -79,14 +79,14 @@ $('.combat-instagram').each(function () {
     `);
 });
 
-$('.combat-youtube').each(function () {
-    var link = $(this).html();
-    $(this).contents().wrap(`
-    <a href="https://www.youtube.com/channel/UCyYbGWV1p5aZM1xRBWl-LHQ" target=”_blank”
-                                class="d-flex align-items-center justify-content-center"><span
-                                    class="fa fa-youtube-play"><i class="sr-only">Youtube</i></span></a>
-    `);
-});
+// $('.combat-youtube').each(function () {
+//     var link = $(this).html();
+//     $(this).contents().wrap(`
+//     <a href="https://www.youtube.com/channel/UCyYbGWV1p5aZM1xRBWl-LHQ" target=”_blank”
+//                                 class="d-flex align-items-center justify-content-center"><span
+//                                     class="fa fa-youtube-play"><i class="sr-only">Youtube</i></span></a>
+//     `);
+// });
 
 $('.combat-helpdesk-btn').each(function () {
     var link = $(this).html();
