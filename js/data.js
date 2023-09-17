@@ -22,7 +22,7 @@ $('.combat-icon').each(function () {
 $('.combat-footer-description').each(function () {
     var link = $(this).html();
     $(this).contents().wrap(`
-    <p style="text-align: justify;">Combat Technical Services LLC is a proven integrated technical service provider in the United Arab Emirates (UAE), offering the full range of hard and soft technical services for a wide range of business demographics.</p>                     
+    <p style="text-align: justify;">Combat Road Contracting LLC is a proven integrated technical service provider in the United Arab Emirates (UAE), offering the full range of hard and soft technical services for a wide range of business demographics.</p>                     
     `);
 });
 
