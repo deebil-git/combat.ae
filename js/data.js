@@ -113,7 +113,7 @@ $('.combat-helpdesk-call').each(function () {
 $('.combat-location-icon').each(function () {
     var link = $(this).html();
     $(this).contents().wrap(`
-    <a href="https://g.page/combat-technical-services-llc" target=”_blank”></a>
+    <a href="https://maps.app.goo.gl/pvCQSMPVG3De6Luw8" target=”_blank”></a>
     `);
 });
 
@@ -121,8 +121,17 @@ $('.combat-location-icon').each(function () {
 $('.combat-location-header').each(function () {
     var link = $(this).html();
     $(this).contents().wrap(`
+    <a href="https://maps.app.goo.gl/pvCQSMPVG3De6Luw8" target=”_blank”>
+        Office No. 129, Al Asmawi Building, Ras Al Khor,<br>Industrial Area 2,<br>Dubai, UAE | PO Box - 91136
+    </a>
+    `);
+});
+
+$('.combat-location-header-warehouse').each(function () {
+    var link = $(this).html();
+    $(this).contents().wrap(`
     <a href="https://g.page/combat-technical-services-llc" target=”_blank”>
-        Warehouse No. 3, 19D Street, Ras Al Khor Ind. 1st, Dubai, UAE | PO Box - 91136
+        Warehouse No. 3, 19D Street, Ras Al Khor Ind. 1st,<br>Dubai, UAE | PO Box - 91136
     </a>
     `);
 });
@@ -130,8 +139,8 @@ $('.combat-location-header').each(function () {
 $('.combat-location-contact').each(function () {
     var link = $(this).html();
     $(this).contents().wrap(`
-    <a href="https://g.page/combat-technical-services-llc" target=”_blank”>
-        Warehouse No. 3, 19D Street<br>Ras Al Khor Ind. 1st<br>Dubai, UAE<br>PO Box - 91136
+    <a href="https://maps.app.goo.gl/pvCQSMPVG3De6Luw8" target=”_blank”>
+        Office No. 129, Al Asmawi Building, Ras Al Khor Industrial Area 2, Dubai, UAE | PO Box - 91136
     </a>
     `);
 });
@@ -139,10 +148,9 @@ $('.combat-location-contact').each(function () {
 $('.combat-location-footer').each(function () {
     var link = $(this).html();
     $(this).contents().wrap(`
-    <a href="https://g.page/combat-technical-services-llc" target=”_blank”>
-    Warehouse No. 3, 19D Street<br>Ras Al Khor Ind. 1st<br>
-    Dubai, UAE<br>
-    PO Box - 91136
+    <a href="https://maps.app.goo.gl/pvCQSMPVG3De6Luw8" target=”_blank”>
+    Office No. 129, Al Asmawi Building<br>Ras Al Khor Industrial Area 2<br>
+    Dubai, UAE | PO Box - 91136
     </a>
     `);
 });

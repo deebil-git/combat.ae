@@ -96,11 +96,11 @@
 
     <div class="pt-2 pb-3">
         <div class="container">
-            <div class="row d-flex align-items-start align-items-center px-3 px-md-0">
-                <div class="col-md-4 d-flex mb-2 mb-md-0">
+            <div class="row d-flex align-items-center px-3 px-md-0">
+                <div class="col-md-3 d-flex mb-2 mb-md-0">
                     <span class="combat-logo"> </span>
                 </div>
-                <div class="col-md-4 d-flex topper mb-md-0 mb-2 align-items-center">
+                <div class="col-md-3 d-flex topper mb-md-0 mb-2 align-items-center">
                     <div class="icon d-flex justify-content-center align-items-center">
                         <span class="combat-helpdesk-call-icon">
                             <span class="fa fa-phone"></span>
@@ -115,16 +115,29 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-4 d-flex topper mb-md-0 align-items-center">
+                <div class="col-md-3 d-flex topper mb-md-0 align-items-center">
                     <div class="icon d-flex justify-content-center align-items-center">
                         <span class="combat-location-icon">
                             <span class="fa fa-map-marker"></span>
                         </span>
                     </div>
                     <div class="text pl-3 pl-md-3">
-                        <p class="hr"><span>Our Location</span></p>
+                        <p class="hr"><span>Head Office</span></p>
                         <p class="hr">
                             <span class="combat-location-header"> </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex topper mb-md-0 align-items-center">
+                    <div class="icon d-flex justify-content-center align-items-center">
+                        <span class="combat-location-icon">
+                            <span class="fa fa-map-marker"></span>
+                        </span>
+                    </div>
+                    <div class="text pl-3 pl-md-3">
+                        <p class="hr"><span>Warehouse</span></p>
+                        <p class="hr">
+                            <span class="combat-location-header-warehouse"> </span>
                         </p>
                     </div>
                 </div>
@@ -147,6 +160,7 @@
                     <li class="nav-item"><a href="clients" class="nav-link">Clients</a></li>
                     <li class="nav-item active"><a href="#" class="nav-link">Careers</a></li>
                     <li class="nav-item"><a href="contact-us" class="nav-link">Contact Us</a></li>
+                    <li class="nav-item"><a href="profile" class="nav-link">Profile</a></li>
                 </ul>
             </div>
             <span class="inquire-btn-nav"> </span>
@@ -238,17 +252,51 @@
                                 <td>Open</td>
                             </tr> -->
                             <tr>
-                                <td>Mason</th>
+                                <td>Project Manager</th>
                                 <td>Dubai, UAE</td>
                                 <td>Operations</td>
-                                <td>02/01/2023</td>
+                                <td>
+                                    <script>
+                                        var today = new Date();
+                                        var day = today.getDate();
+                                        var month = String(today.getMonth() + 1).padStart(2, '0');
+                                        var year = today.getFullYear();
+                                        var dateStr = (day < 13 ? day : (day <= 25 ? '13' : '25')) + '/' + month + '/' + year;
+                                        document.write(dateStr);
+                                    </script>
+                                </td>
                                 <td>Open</td>
                             </tr>
                             <tr>
-                                <td>Helper</th>
+                                <td>Civil Engineer (Female)</th>
                                 <td>Dubai, UAE</td>
                                 <td>Operations</td>
-                                <td>02/01/2023</td>
+                                <td>
+                                    <script>
+                                        var today = new Date();
+                                        var day = today.getDate();
+                                        var month = String(today.getMonth() + 1).padStart(2, '0');
+                                        var year = today.getFullYear();
+                                        var dateStr = (day < 5 ? day : (day <= 17 ? '5' : '17')) + '/' + month + '/' + year;
+                                        document.write(dateStr);
+                                    </script>
+                                </td>
+                                <td>Open</td>
+                            </tr>
+                            <tr>
+                                <td>Junior Accountant (Female)</th>
+                                <td>Dubai, UAE</td>
+                                <td>Operations</td>
+                                <td>
+                                    <script>
+                                        var today = new Date();
+                                        var day = today.getDate();
+                                        var month = String(today.getMonth() + 1).padStart(2, '0');
+                                        var year = today.getFullYear();
+                                        var dateStr = (day < 10 ? day : (day <= 20 ? '10' : '20')) + '/' + month + '/' + year;
+                                        document.write(dateStr);
+                                    </script>
+                                </td>
                                 <td>Open</td>
                             </tr>
                         </tbody>
